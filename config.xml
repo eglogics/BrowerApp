@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.inappbrowser606804" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Grand Masters<name>
+  <name>Grand Masters</name>
   <description>
-     	IN App Browser App for Grand Masters
+        An Ionic Framework and Cordova project.
     </description>
-  <author email="info@eglogics.com" href="http://eglogics.com/">
-      EGlogics Softech Team
+  <author email="hi@ionicframework" href="http://ionicframework.com/">
+      Ionic Framework Team
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -16,11 +16,9 @@
   <preference name="BackupWebStorage" value="none"/>
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="3000"/>
-  
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
-  
   <platform name="android">
     <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
     <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
