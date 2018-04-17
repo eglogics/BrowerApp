@@ -16,16 +16,17 @@
     {
          var ref = window.open('http://www.grandmasters.in', '_blank', 'location=no');
     
-    	     var notificationOpenedCallback = function(jsonData) {
+    	  var notificationOpenedCallback = function(jsonData) 
+    	  {
 				console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
-				  };
+				
+		  };
 
-				  window.plugins.OneSignal
-					.startInit("bd9eca6e-b803-4701-a712-ffd187a61ee3")
-					.handleNotificationOpened(notificationOpenedCallback)
-					.endInit();
-				}, false);
-
+		   window.plugins.OneSignal
+		   .startInit("bd9eca6e-b803-4701-a712-ffd187a61ee3")
+		   .handleNotificationOpened(notificationOpenedCallback)
+		   .endInit();
+			
     
     }
     
